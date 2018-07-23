@@ -1,0 +1,48 @@
+@import "../theme.scss";
+nav{
+  
+    box-shadow:1px 2px 2px #ddd;
+    ul{
+        padding: 0;
+        height: 35px;      
+        display: flex;
+        flex-direction: row;
+        background-color: $white;
+        li{
+            list-style: none;
+            cursor: pointer;
+            &:first-child{
+                img{
+                    background-color: $white;
+                    justify-content: center;
+                    align-items: center;    
+                    height: 27px;
+                    padding-top:5px; 
+                    width: auto;
+                    object-fit: cover;
+                    padding-right:20px; 
+                }
+                &:hover{
+                    background-color: transparent;
+                }
+            }
+            a{
+                line-height: 35px;
+                padding: 0 10px;
+                text-decoration: none;
+                
+                font-size: 14px;
+                font-weight: 500;
+                
+            }   
+            &:hover{
+                background-color:$themeColor;
+               
+                a{
+                    color: $white; 
+                }
+            }  
+    
+        }
+    }
+}
