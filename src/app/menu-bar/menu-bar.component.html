@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md fixed-top">
-  <a class="navbar-brand" href="#"><img src="../../assets/logo2.png" alt="logo"></a>
+  <a class="navbar-brand" href="#"><img src="../../assets/logo.png" alt="logo"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
     aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -12,15 +12,31 @@
         </a>
       </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"routerLink="/Employee" routerLinkActive="active" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Employee</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" routerLink="/Employee/EmployeeDetails" routerLinkActive="active">Employee Details</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+              <a class="nav-link dropdown-toggle"routerLink="/Employee" routerLinkActive="active" id="ddEmployee" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Employee</a>
+              <div class="dropdown-menu" aria-labelledby="ddEmployee">
+                <a class="dropdown-item" routerLink="/Employee/PersonalDetails" routerLinkActive="active">Personal Details</a>
+                <a class="dropdown-item" routerLink="/Employee/StatutoryDetails" routerLinkActive="active">Statutory Details</a>
+                <a class="dropdown-item" routerLink="/Employee/OffcialDetails" routerLinkActive="active">Offcial Details</a>
+                <a class="dropdown-item" routerLink="/Employee/EducationalDetails" routerLinkActive="active">Educational Details</a>
+                <a class="dropdown-item" routerLink="/Employee/ExperienceDetails" routerLinkActive="active">Experience Details</a>
+                <a class="dropdown-item" routerLink="/Employee/MedicalPolicies" routerLinkActive="active">Medical Policies</a>
+                <a class="dropdown-item" routerLink="/Employee/MedicalHistory" routerLinkActive="active">Medical History</a>
+                
               </div>
             </li>
-    
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle"routerLink="/Masters" routerLinkActive="active" id="ddmasterSettings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Master</a>
+              <div class="dropdown-menu" aria-labelledby="ddmasterSettings">
+                <a class="dropdown-item" routerLink="/Masters/MasterSettings" routerLinkActive="active">Master Settings</a>
+              </div>
+            </li>
 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle"routerLink="/Settings" routerLinkActive="active" id="ddemployeeSettings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
+              <div class="dropdown-menu" aria-labelledby="ddemployeeSettings">
+                <a class="dropdown-item" routerLink="/Settings/EmployeeSettings" routerLinkActive="active">Employee Settings</a>
+              </div>
+            </li>
     </ul>   
   </div>
 </nav>
