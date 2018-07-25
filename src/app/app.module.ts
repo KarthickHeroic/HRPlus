@@ -23,6 +23,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { LoginComponent } from './login/login.component';
+import { MenuBarComponent } from './menu-bar/menu-bar.component';
+import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { LoginComponent } from './login/login.component';
     PageNotFoundComponent,
     DashboardComponent,
     EmployeeComponent,
-    LoginComponent
+    LoginComponent,
+    MenuBarComponent,
+    EmployeeDetailsComponent
   ],
   imports: [
     BrowserModule,
